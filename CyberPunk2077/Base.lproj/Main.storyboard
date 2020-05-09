@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="True Lies.ttf">
+            <string>TrueLies</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CyberPunk2077" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainWallpaper" translatesAutoresizingMaskIntoConstraints="NO" id="wdV-8Q-ncr">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1250"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zh4-uI-KIZ">
+                                <rect key="frame" x="0.0" y="518" width="414" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Uym-5b-Ueb">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <blurEffect style="systemChromeMaterialDark"/>
+                            </visualEffectView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Decouvrir le Lore" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHu-xs-xr1">
+                                <rect key="frame" x="20" y="64" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="rAo-3o-kWG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrueLies" family="True Lies" pointSize="35"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="3"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vp6-cA-FW9">
+                                <rect key="frame" x="0.0" y="516" width="414" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="414" id="Bfs-dr-sWh"/>
+                                    <constraint firstAttribute="height" constant="130" id="Mkq-tE-vVD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrueLies" family="True Lies" pointSize="25"/>
+                                <state key="normal" title="Entreprise">
+                                    <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="EntrepriseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2vH-TT-vV4"/>
+                                </connections>
+                            </button>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Acf-Eq-sZF">
+                                <rect key="frame" x="0.0" y="259" width="414" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="t3M-RZ-NHe">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="128"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FfY-ie-FNw">
+                                            <rect key="frame" x="0.0" y="44.5" width="414" height="39"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="414" id="5dC-5U-Jsx"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="TrueLies" family="True Lies" pointSize="25"/>
+                                            <state key="normal" title="Gang">
+                                                <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </state>
+                                            <connections>
+                                                <action selector="gangButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="haw-64-LYX"/>
+                                                <segue destination="I3v-Q8-V3g" kind="show" id="12c-5V-wfp"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="FfY-ie-FNw" firstAttribute="centerX" secondItem="t3M-RZ-NHe" secondAttribute="centerX" id="EfY-oF-rUj"/>
+                                        <constraint firstItem="FfY-ie-FNw" firstAttribute="centerY" secondItem="t3M-RZ-NHe" secondAttribute="centerY" id="uue-YO-O9W"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="systemChromeMaterialDark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vp6-cA-FW9" secondAttribute="bottom" constant="216" id="4f5-8Q-zh5"/>
+                            <constraint firstItem="fHu-xs-xr1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Deh-IA-QEj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fHu-xs-xr1" secondAttribute="trailing" constant="20" id="K3c-3r-GCp"/>
+                            <constraint firstItem="vp6-cA-FW9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="V1d-AZ-oiu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vp6-cA-FW9" secondAttribute="trailing" symbolic="YES" id="W99-HW-znF"/>
+                            <constraint firstItem="wdV-8Q-ncr" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Yx1-oP-ZBB"/>
+                            <constraint firstItem="wdV-8Q-ncr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bUm-UD-5gL"/>
+                            <constraint firstItem="fHu-xs-xr1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="nCY-j9-Mv2"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wdV-8Q-ncr" secondAttribute="trailing" id="ojW-oA-fe7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+        <!--Detail Controller-->
+        <scene sceneID="w7e-H5-kdh">
+            <objects>
+                <viewController id="I3v-Q8-V3g" customClass="DetailController" customModule="CyberPunk2077" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yep-Ij-YRo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nxg-ha-AxS">
+                                <rect key="frame" x="20" y="20" width="374" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="xud-21-vRF"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TrueLies" family="True Lies" pointSize="25"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="2" height="3"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rwj-k5-uhF">
+                                <rect key="frame" x="70" y="152" width="274" height="245"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KS8-1h-vsy">
+                                <rect key="frame" x="20" y="447" width="374" height="261"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t2j-3u-YNq">
+                                <rect key="frame" x="40" y="758" width="64" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="rqZ-Ah-hoU"/>
+                                </constraints>
+                                <state key="normal" image="gauche"/>
+                                <connections>
+                                    <action selector="backButton:" destination="I3v-Q8-V3g" eventType="touchUpInside" id="qYq-uF-Cbq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B5u-bg-vnf">
+                                <rect key="frame" x="305" y="758" width="64" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="8es-xV-Tqx"/>
+                                </constraints>
+                                <state key="normal" image="droite"/>
+                                <connections>
+                                    <action selector="nextButton:" destination="I3v-Q8-V3g" eventType="touchUpInside" id="DdP-py-1lb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="1YJ-cf-w3p" firstAttribute="trailing" secondItem="KS8-1h-vsy" secondAttribute="trailing" constant="20" id="7vn-OT-4Va"/>
+                            <constraint firstItem="KS8-1h-vsy" firstAttribute="top" secondItem="rwj-k5-uhF" secondAttribute="bottom" constant="50" id="B5Z-QM-CBb"/>
+                            <constraint firstItem="KS8-1h-vsy" firstAttribute="leading" secondItem="1YJ-cf-w3p" secondAttribute="leading" constant="20" id="Dvq-pv-x1E"/>
+                            <constraint firstItem="Nxg-ha-AxS" firstAttribute="leading" secondItem="1YJ-cf-w3p" secondAttribute="leading" constant="20" id="GNJ-IL-7iv"/>
+                            <constraint firstItem="1YJ-cf-w3p" firstAttribute="trailing" secondItem="Nxg-ha-AxS" secondAttribute="trailing" constant="20" id="PGB-wb-rGb"/>
+                            <constraint firstItem="rwj-k5-uhF" firstAttribute="top" secondItem="Nxg-ha-AxS" secondAttribute="bottom" constant="82" id="SSe-CH-szb"/>
+                            <constraint firstItem="rwj-k5-uhF" firstAttribute="leading" secondItem="1YJ-cf-w3p" secondAttribute="leading" constant="70" id="Uq4-d4-6ta"/>
+                            <constraint firstItem="t2j-3u-YNq" firstAttribute="bottom" secondItem="1YJ-cf-w3p" secondAttribute="bottom" id="Vd1-cy-pv2"/>
+                            <constraint firstItem="1YJ-cf-w3p" firstAttribute="bottom" secondItem="rwj-k5-uhF" secondAttribute="bottom" constant="411" id="Xqr-Hu-FZT"/>
+                            <constraint firstItem="B5u-bg-vnf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="t2j-3u-YNq" secondAttribute="trailing" constant="8" symbolic="YES" id="aTM-xG-h0c"/>
+                            <constraint firstItem="1YJ-cf-w3p" firstAttribute="trailing" secondItem="rwj-k5-uhF" secondAttribute="trailing" constant="70" id="b81-PQ-tWZ"/>
+                            <constraint firstItem="1YJ-cf-w3p" firstAttribute="bottom" secondItem="KS8-1h-vsy" secondAttribute="bottom" constant="100" id="eXi-bw-U7F"/>
+                            <constraint firstItem="t2j-3u-YNq" firstAttribute="leading" secondItem="1YJ-cf-w3p" secondAttribute="leading" constant="40" id="gNc-rR-sBT"/>
+                            <constraint firstItem="1YJ-cf-w3p" firstAttribute="trailing" secondItem="B5u-bg-vnf" secondAttribute="trailing" constant="45" id="nv0-t6-JC1"/>
+                            <constraint firstItem="Nxg-ha-AxS" firstAttribute="top" secondItem="1YJ-cf-w3p" secondAttribute="top" constant="20" id="qso-Vh-aP9"/>
+                            <constraint firstItem="t2j-3u-YNq" firstAttribute="baseline" secondItem="B5u-bg-vnf" secondAttribute="baseline" id="ycj-sf-aJw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="1YJ-cf-w3p"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Y6D-l6-Q5c"/>
+                    <connections>
+                        <outlet property="DescField" destination="KS8-1h-vsy" id="0H4-SH-Rlu"/>
+                        <outlet property="labelText" destination="Nxg-ha-AxS" id="kWn-iQ-QDs"/>
+                        <outlet property="logoImage" destination="rwj-k5-uhF" id="6AV-G5-diY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aW1-4a-Ez7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1003" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MainWallpaper" width="1000" height="1250"/>
+        <image name="droite" width="64" height="64"/>
+        <image name="gauche" width="64" height="64"/>
+    </resources>
+</document>
