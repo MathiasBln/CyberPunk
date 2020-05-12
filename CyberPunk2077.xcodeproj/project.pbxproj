@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093B1BAF246A9DA9003CE786 /* CoorporationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093B1BAE246A9DA9003CE786 /* CoorporationController.swift */; };
+		093B1BB1246A9F76003CE786 /* CoorporateCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093B1BB0246A9F76003CE786 /* CoorporateCollection.swift */; };
+		093B1BB3246A9FA8003CE786 /* CoorporateInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093B1BB2246A9FA8003CE786 /* CoorporateInformation.swift */; };
 		09D25F9B2466C85E0049A032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D25F9A2466C85E0049A032 /* AppDelegate.swift */; };
 		09D25F9D2466C85E0049A032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D25F9C2466C85E0049A032 /* SceneDelegate.swift */; };
 		09D25F9F2466C85E0049A032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D25F9E2466C85E0049A032 /* ViewController.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		093B1BAE246A9DA9003CE786 /* CoorporationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoorporationController.swift; sourceTree = "<group>"; };
+		093B1BB0246A9F76003CE786 /* CoorporateCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoorporateCollection.swift; sourceTree = "<group>"; };
+		093B1BB2246A9FA8003CE786 /* CoorporateInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoorporateInformation.swift; sourceTree = "<group>"; };
 		09D25F972466C85E0049A032 /* CyberPunk2077.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyberPunk2077.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D25F9A2466C85E0049A032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09D25F9C2466C85E0049A032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,13 +74,16 @@
 				09D25F9A2466C85E0049A032 /* AppDelegate.swift */,
 				09D25F9C2466C85E0049A032 /* SceneDelegate.swift */,
 				09D25F9E2466C85E0049A032 /* ViewController.swift */,
-				09D25FB92466EC630049A032 /* DetailController.swift */,
 				09D25FA02466C85E0049A032 /* Main.storyboard */,
 				09D25FA52466C8760049A032 /* LaunchScreen.storyboard */,
+				09D25FB92466EC630049A032 /* DetailController.swift */,
 				09D25FB72466EA2B0049A032 /* GangInformation.swift */,
 				09D25FB52466E7780049A032 /* GangCollection.swift */,
 				09D25FA82466C8760049A032 /* Info.plist */,
 				09D25FA32466C8760049A032 /* Assets.xcassets */,
+				093B1BAE246A9DA9003CE786 /* CoorporationController.swift */,
+				093B1BB2246A9FA8003CE786 /* CoorporateInformation.swift */,
+				093B1BB0246A9F76003CE786 /* CoorporateCollection.swift */,
 			);
 			path = CyberPunk2077;
 			sourceTree = "<group>";
@@ -161,10 +170,13 @@
 			files = (
 				09D25F9F2466C85E0049A032 /* ViewController.swift in Sources */,
 				09D25FB82466EA2B0049A032 /* GangInformation.swift in Sources */,
+				093B1BB3246A9FA8003CE786 /* CoorporateInformation.swift in Sources */,
+				093B1BAF246A9DA9003CE786 /* CoorporationController.swift in Sources */,
 				09D25F9B2466C85E0049A032 /* AppDelegate.swift in Sources */,
 				09D25FB62466E7780049A032 /* GangCollection.swift in Sources */,
 				09D25FBA2466EC630049A032 /* DetailController.swift in Sources */,
 				09D25F9D2466C85E0049A032 /* SceneDelegate.swift in Sources */,
+				093B1BB1246A9F76003CE786 /* CoorporateCollection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
